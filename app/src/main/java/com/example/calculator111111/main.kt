@@ -17,7 +17,7 @@ fun main() {
 
 
 
-            println("choose operation(+,-,*,/")
+            println("choose operation(+,-,*,/)")
     val operator = readLine()
     val calculator: AbstractOperation =
         when (operator) {
@@ -44,7 +44,7 @@ fun main() {
         main()
     }
 
-    println("choose operation(+,-,*,/")
+    println("choose operation(+,-,*,/)")
     val nextOperator = readLine()
     val theOtherCalculator: AbstractOperation =
         when (nextOperator) {
